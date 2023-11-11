@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body {
+    background-color: #5F6161;
+    font-family: "Archivo";
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #FA35F9;
+    font-size: 3em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input,
+button {
+    margin: 0.25em;
+    padding: 0.5em;
+    border: none;
+
+}
+
+input:focus {
+    outline: 1px solid black
+}
+
+
+button:hover {
+    background-color: #C465C7
+}
+
+#gifs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 0.5em;
+}
